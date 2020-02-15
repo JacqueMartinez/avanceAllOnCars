@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Padresito {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #ffffff;
+}
+
+header {
+  background: url("./img/Background.png");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Atardecer */
+.Aterdecer {
+  background: url("./img/landscapes.png");
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.AterdercerContenedor {
+  margin: 0 auto;
+  height: 70%;
+  width: 46%;
+  border-top-width: 116px;
+  border-top-style: solid;
+  border-color: transparent;
+  font-size: 35px;
+  color: aliceblue;
+  font-family: Roboto;
+  font-style: normal;
+  text-align: center;
+}
+/* Atardecer */
+
+/* nav */
+nav {
+  position: fixed;
+  width: 80%;
+  top: -5em;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+nav ul {
+  text-align: center;
+  list-style: none;
+  width: 100%;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 4%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li .logoNav {
+  display: inline-block;
+  position: relative;
+  top: 18px;
+  right: 100%;
+}
+/* nav */
+
+.headerCont {
+  width: 80%;
+  margin: 0 auto;
+  padding: 150px 0 0 170px;
+}
+
+.headerIzq {
+  width: 50%;
+  height: 72vh;
+  margin: 0;
+  float: left;
+  top: 10px;
+}
+
+.headerDerecho {
+  width: 50%;
+  height: 72vh;
+  margin: 0;
+  background: url("./img/iphone.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 700px;
+  float: right;
+}
+
+.headerTitulo {
+  font-size: 30px;
+  font-family: roboto;
+}
+
+.headerParrafo {
+  padding-top: 70px;
+  font-size: 24px;
+  padding-right: 176px;
+}
+
+.headerPlayStore {
+  padding-top: 150px;
+  background: url("./img/playstore.jpg");
+  width: 200px;
+  height: 3em;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 200px;
+}
+
+.arrow {
+  background: url("./img/expandArrow.png");
+  width: 100px;
+  height: 100px;
+  left: 50px;
+  background-size: auto;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding: 700px 1400px 0 0;
+}
+
+/* Contenido Dos */
+.Dos {
+  width: 100%;
+  height: 50vh;
+  margin: 0;
+  margin-top: -50px;
+}
+
+.DosContenedor {
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.Navi {
+  text-align: right;
+  list-style: none;
+  width: 45%;
+  display: inline-block;
+  float: left;
+}
+
+.Navi2 {
+  text-align: start;
+  list-style: none;
+  width: 45%;
+  display: inline-block;
+  float: left;
+  padding-left: 20px;
+}
+
+div .Navi a {
+  border-block-end: inset;
+  border-block-color: brown;
+}
+
+.DCont {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Dimg {
+  background: url("./img/carAccident.png");
+  width: 40%;
+  height: 40vh;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 262px;
+  display: inline-block;
+  float: left;
+  clear: both;
+}
+
+.DText {
+  width: 13%;
+  height: 40vh;
+  background-size: 700px;
+  float: right;
+  margin-right: 600px;
+  display: flex;
+  align-items: center;
+  line-height: 1.8;
+}
+/* Contenido Dos */
+
+/* Footer */
+footer {
+  background-color: #eae9e9;
+  width: 100%;
+  height: 20vh;
+}
+
+.FoCont {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
+
+.LogoFo {
+  width: 25%;
+  height: 100%;
+  display: inline-block;
+  margin-left: 300px;
+}
+
+.LogoFo img {
+  width: 200px;
+}
+
+.SerFoIz {
+  display: block;
+  float: right;
+  padding-right: 107px;
+  width: 15%;
+  border-top-width: 30px;
+  border-style: solid;
+  border-color: transparent;
+}
+.SerFoDer {
+  width: 25%;
+  display: block;
+  float: right;
+  border-top-width: 30px;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.SerFoIz p {
+  line-height: 3;
+}
+
+.SerFoDer p {
+  line-height: 3;
+}
+/* Footer */
