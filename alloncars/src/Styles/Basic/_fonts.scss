@@ -1,0 +1,21 @@
+@import "./colors";
+
+$font: "Roboto Light";
+
+*{
+    font-family: $font;
+}
+h1{
+        color:$blanco;
+        padding: 0;
+        font-size: 50px;
+        text-align: center;
+};
+
+h2{
+    color:$negro;
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    margin-bottom: 20px;
+};
