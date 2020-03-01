@@ -5,6 +5,7 @@ import Buscar from './Page/Buscar'
 import Nosotros from './Page/Nosotros'
 import navBar from './Components/navbar'
 
+
 function App(){
   return(
     <BrowserRouter>
@@ -12,6 +13,7 @@ function App(){
      <Route path="/Buscar"  component={Buscar}/>
      <Route path="/Nosotros"  component={Nosotros}/>
      <Route path="/navBar"  component={navBar}/>
+ 
   
 
      <p>{JSON.stringify()}</p>

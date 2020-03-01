@@ -1,0 +1,72 @@
+@import "../Basic/fonts";
+@import "../Basic/colors";
+
+.tabs{
+    font-size: 24;
+    font-family:$font;
+    margin:0 auto;
+    width:70%;
+    text-align:center;
+    margin-top:15vh;
+    background-color:$cuadro_nosotros;
+    color: #ffffff;
+   
+   
+  }
+ 
+  button{
+    margin-right:15px;
+    font-size:24px;
+    background:transparent;
+    border:none;
+    outline:none;
+    padding:10px 20px ;
+    cursor:pointer;
+    color :#ffffff;
+    transition:all ease-in-out .2s;
+    border-bottom:2px solid transparent;
+    
+    
+  }
+  .tab-buttons{
+    margin-bottom:50px;
+  }
+  
+ 
+  .active{
+    border-bottom:2px solid $blanco;
+   
+    color: $blanco;
+  }
+
+  .miembros{
+    width: 54vw;
+    height: 41vh;
+    margin: 0 auto;
+    padding-top: 4%;
+  }
+
+  .base_imagen{
+    width: auto;
+    height: auto;
+    float: left;
+    margin-right: 2%;
+    background-color: #74747b6e;
+  }
+  .base_imagen4{
+    width: auto;
+    height: auto;
+    float: left;
+
+    background-color: #74747b6e;
+  }
+
+  img {
+    width: 170px;
+  }
+  .p{
+    font-size: 1rem;
+  }
+ 
+ 
+  

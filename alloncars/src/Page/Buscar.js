@@ -7,7 +7,7 @@ const Buscar = () => (
         <header className="buscar">
             <div>
                 <form className="form_b">
-                    <h1>Escribe el servicio que necesites</h1>
+                    <h1 className="h1l">Escribe el servicio que necesites</h1>
                     <input className="input_b" 
                     type="search" 
                     name="search " 

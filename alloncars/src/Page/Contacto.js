@@ -36,7 +36,7 @@ class App extends React.Component {
 
         <div>
           <form className="form_c">
-            <h2>Dudas o aclaraciones,no dude en contactarnos</h2>
+            <h2 className="h2l">Dudas o aclaraciones,no dude en contactarnos</h2>
             <label htmlFor="email"> Tu email:</label>
             <input className="input_c"
             value={this.state.email} 
