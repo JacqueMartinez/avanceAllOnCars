@@ -1,0 +1,42 @@
+.grid
+  position: relative
+  display: grid
+  grid-gap: 32px
+
+.grid-1
+  @extend .grid
+  grid-template-columns: 1fr
+.grid-2
+  @extend .grid
+  grid-template-columns: repeat(2, 1fr)
+.grid-3
+  @extend .grid
+  grid-template-columns: repeat(3, 1fr)
+.grid-4
+  @extend .grid
+  grid-template-columns: repeat(4, 1fr)
+  @media screen and (max-width: 1440px)
+    grid-template-columns: repeat(3, 1fr)
+  @media screen and (max-width: 1280px)
+    grid-template-columns: repeat(2, 1fr)
+.grid-5
+  @extend .grid
+  grid-template-columns: repeat(5, 1fr)
+.grid-6
+  @extend .grid
+  grid-template-columns: repeat(6, 1fr)
+.grid-2-3
+  @extend .grid
+  grid-template-columns: 2fr 1fr
+.grid-50
+  @extend .grid
+  grid-template-columns: 50% 50%
+
+.logingrid
+  @extend .grid
+  grid-template-columns: 45% 55%
+  @media screen and (max-width: 1280px)
+    grid-template-columns: 1fr
+
+.grid-end
+  justify-self: end

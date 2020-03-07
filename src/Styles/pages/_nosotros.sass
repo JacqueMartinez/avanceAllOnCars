@@ -1,0 +1,72 @@
+.Nosotros
+  background-image: url("../../Assets/Background3.png")
+  background-position: 0 0
+  background-repeat: no-repeat
+  background-size: 100% 100vh
+  background-attachment: fixed
+  height: 100vh
+  width: 100vw
+  justify-content: center
+  align-items: center
+  display: flex
+  flex-direction: column
+  padding: 0px
+  @media screen and (max-width: 990px)
+    height: auto
+  &_Tabs
+    font-size: 24
+    font-family: $light
+    width: 70%
+    margin-top: 30px
+    text-align: center
+    background-color: $cuadro_nosotros
+    color: $blanco
+    @media screen and (max-width: 990px)
+      margin-top: 50px
+      width: 90%
+    p
+      padding: 30px 20px
+      color: $blanco
+      font-family: $light
+    button
+      font-size: 24px
+      background: transparent
+      border: none
+      outline: none
+      padding: 30px 20px
+      cursor: pointer
+      color: $blanco
+      transition: all ease-in-out .2s
+    h4
+      color: $blanco
+      font-family: $light
+  &_miembros
+    width: 54vw
+    margin: 50px auto
+    justify-content: center
+    align-items: center
+    display: flex
+    @media screen and (max-width: 990px)
+      flex-direction: column
+      width: 80vw
+    &_imagen
+      width: auto
+      height: auto
+      float: left
+      margin-right: 2%
+      background-color: $base_imagen
+      @media screen and (max-width: 990px)
+        margin-bottom: 10px
+    p
+      font-size: 1rem
+      padding: 0px 0px
+    img
+      width: 100%
+  &_active
+    border-bottom: 2px solid $blanco
+    color: $blanco
+
+.scroll
+  @media screen and (max-width: 990px)
+    overflow-x: scroll
+  

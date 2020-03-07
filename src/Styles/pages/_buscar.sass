@@ -1,0 +1,58 @@
+.Buscar
+  background-image: url("../../Assets/Background1.png")
+  background-position: 0 0
+  background-repeat: no-repeat
+  height: 100vh
+  width: 100vw
+  justify-content: center
+  align-items: center
+  display: flex
+  margin: auto
+  padding: 0px
+  &_form_b
+    background-color: $color_buscar
+    width: 950px
+    justify-content: center
+    align-items: center
+    display: flex
+    margin: auto
+    flex-direction: column
+    h1
+      font-family: $light
+      color: $blanco
+      @media screen and (max-width: 990px)
+        text-align: center
+        font-size: 1.6rem
+    input
+      background-color: rgba(104, 109, 104, 0.5)
+      color: rgba(133, 139, 133, 0.4)
+      text-align: left
+      font-size: 2rem
+      font-family: $light
+      height: 90px
+      width: 90%
+      border: rgba(255,255,255,.5) solid 1px
+      padding: 7px
+      border-radius: 45px
+      @media screen and (max-width: 990px)
+        background-color: rgba(104, 109, 104, 0.5)
+        color: rgba(133, 139, 133, 0.4)
+        text-align: left
+        font-size: 1.2rem
+        font-family: $light
+        height: 60px
+        width: 90%
+        border: rgba(255,255,255,.5) solid 1px
+        padding: 7px
+        border-radius: 30px
+    button
+      padding: 15px 40px
+      border-radius: 8px
+      margin-top: 20px
+      font-size: 1.2rem
+      box-shadow: 0 0 2rem rgba(0,0,0,.1)
+      color: $blanco
+      background-color: $boton_nosotros
+      border: rgba(255,255,255,.5) solid 0.5px
+      @media screen and (min-width: 991px)
+        display: none
